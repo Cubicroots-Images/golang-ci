@@ -2,7 +2,7 @@ on: push
 
 jobs:
   build_image:
-    uses: CubicrootXYZ/Workflows/.github/workflows/build_image.yaml@v0.0.2
+    uses: CubicrootXYZ/Workflows/.github/workflows/build_image.yaml@v0.0.3
     with:
       docker_file_path: "./"
       image_name: "cubicrootxyz/golang-ci"
