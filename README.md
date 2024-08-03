@@ -10,4 +10,3 @@ Image containing tooling used in golang CI workflows.
 * GolangCI Lint
 * Redoc
 * Redoc-Cli
-* Air

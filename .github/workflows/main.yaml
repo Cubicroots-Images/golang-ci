@@ -2,9 +2,8 @@ on: push
 
 jobs:
   build_image:
-    uses: CubicrootXYZ/Workflows/.github/workflows/build_image.yaml@main
+    uses: CubicrootXYZ/Workflows/.github/workflows/build_image.yaml@v0.0.1
     with:
-      docker_build_args: "--no-cache"
       docker_file_path: "./"
       image_name: "cubicrootxyz/golang-ci"
     secrets:
